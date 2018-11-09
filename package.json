@@ -6,5 +6,11 @@
   "repository": "https://github.com/newbornfrontender/simple-chat-on-lit-html.git",
   "author": "Infant Frontender <newbornfrontender@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "keywords": [
+    "parcel-bundler",
+    "typescript",
+    "lit-html",
+    "twilio-chat"
+  ]
 }
