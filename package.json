@@ -11,7 +11,11 @@
     "parcel-bundler",
     "typescript",
     "lit-html",
-    "twilio-chat"
+    "twilio-chat",
+    "tslint",
+    "prettier",
+    "husky",
+    "lint-staged"
   ],
   "scripts": {
     "clean": "rm -rf .cache,dist",
