@@ -1,0 +1,10 @@
+{
+  "name": "simple-chat-on-lit-html",
+  "version": "1.0.0",
+  "description": "Простой чат, созданный на основе Twilio Chat",
+  "main": "index.html",
+  "repository": "https://github.com/newbornfrontender/simple-chat-on-lit-html.git",
+  "author": "Infant Frontender <newbornfrontender@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
