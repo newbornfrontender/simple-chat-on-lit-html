@@ -18,5 +18,8 @@
     "move": "cp -rv public/** dist",
     "serve": "parcel index.html",
     "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "lint-staged": "^8.0.4"
   }
 }
