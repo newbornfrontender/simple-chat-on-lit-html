@@ -16,6 +16,7 @@
   "scripts": {
     "clean": "rm -rf .cache,dist",
     "move": "cp -rv public/** dist",
+    "tslint:check": "tslint-config-prettier-check tslint.json",
     "serve": "parcel index.html",
     "build": "parcel build index.html"
   },
