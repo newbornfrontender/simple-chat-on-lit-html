@@ -12,5 +12,11 @@
     "typescript",
     "lit-html",
     "twilio-chat"
-  ]
+  ],
+  "scripts": {
+    "clean": "rm -rf .cache,dist",
+    "move": "cp -rv public/** dist",
+    "serve": "parcel index.html",
+    "build": "parcel build index.html"
+  }
 }
