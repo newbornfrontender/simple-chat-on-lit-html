@@ -40,5 +40,9 @@
     "tslint-config-prettier": "^1.15.0",
     "tslint-plugin-prettier": "^2.0.1",
     "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "@types/events": "^1.2.0",
+    "tslib": "^1.9.3"
   }
 }
