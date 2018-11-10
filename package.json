@@ -28,8 +28,8 @@
     "tslint:fix": "yarn tslint --fix",
     "prettier:list": "prettier **/*.{css,ts} --list-different",
     "prettier:write": "prettier **/*.{css,ts} --loglevel silent --write",
-    "serve": "parcel index.html",
-    "build": "parcel build index.html"
+    "serve": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "devDependencies": {
     "husky": "^1.1.3",
