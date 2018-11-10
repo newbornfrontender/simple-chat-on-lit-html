@@ -15,7 +15,8 @@
     "tslint",
     "prettier",
     "husky",
-    "lint-staged"
+    "lint-staged",
+    "stylelint"
   ],
   "scripts": {
     "clean": "rm -rf .cache,dist",
