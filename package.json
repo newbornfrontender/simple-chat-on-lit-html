@@ -43,6 +43,7 @@
   },
   "dependencies": {
     "@types/events": "^1.2.0",
+    "lit-html": "^0.13.0",
     "tslib": "^1.9.3"
   }
 }
