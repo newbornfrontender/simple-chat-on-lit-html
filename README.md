@@ -10,6 +10,10 @@
 
 <h2 align="center">Команды</h2>
 
+```
+$ yarn <название команды>
+```
+
 <table>
   <thead>
     <tr>
@@ -21,14 +25,14 @@
     <!-- Команда: clean -->
     <tr>
       <td>
-        <code>$ yarn clean</code>
+        <code>clean</code>
       </td>
       <td>Удаляет ".cache" и "dist" директории</td>
     </tr>
     <!-- Команда: move -->
     <tr>
       <td>
-        <code>$ yarn move</code>
+        <code>move</code>
       </td>
       <td>Переносит статические ресурсы в "dist" директорию</td>
     </tr>
@@ -52,9 +56,9 @@
             <!-- Команда: tslint:check -->
             <tr>
               <td>
-                <code>$ yarn tslint:check</code>
+                <code>tslint:check</code>
               </td>
-              <td>Проверяет "tslint.json" на наличие конфликтующих правил</td>
+              <td width="100%">Проверяет "tslint.json" на наличие конфликтующих правил</td>
             </tr>
           </tbody>
         </table>
@@ -80,9 +84,9 @@
             <!-- Команда: prettier:list -->
             <tr>
               <td>
-                <code>$ yarn prettier:list</code>
+                <code>prettier:list</code>
               </td>
-              <td>Выводит список файлов, которые можно отформатировать</td>
+              <td width="100%">Выводит список файлов, которые можно отформатировать</td>
             </tr>
           </tbody>
         </table>
@@ -91,14 +95,14 @@
     <!-- Команда: serve -->
     <tr>
       <td>
-        <code>$ yarn serve</code>
+        <code>serve</code>
       </td>
       <td>Запускает сервер разработки с горячей перезагрузкой</td>
     </tr>
     <!-- Команда: build -->
     <tr>
       <td>
-        <code>$ yarn build</code>
+        <code>build</code>
       </td>
       <td>Собирает и минифицирует приложение для публикации</td>
     </tr>
