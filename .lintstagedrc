@@ -1,7 +1,7 @@
 {
   "linters": {
-    "*.md": "prettier --write",
-    "src/**/*.css": "stylelint --fix",
-    "src/**/*.ts": "tslint --fix"
+    "*.{json,md}": ["prettier --write", "git add"],
+    "src/**/*.css": ["stylelint --fix", "git add"],
+    "src/**/*.ts": ["tslint --fix", "git add"]
   }
 }
